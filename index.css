@@ -1,0 +1,125 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    /* background-image: url(./assets/background.jpg); */
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #207DC3;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 940px;
+    top: 0;
+    z-index: 99;
+}
+
+header a {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.logo {
+    width: 5rem;
+    margin: 1rem;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+li a {
+    font-family: var(--roboto);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #207DC3;
+}
+
+section {
+    line-height: 3em;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-family: var(--roboto);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 3.5rem;
+}
+
+.quemSomos {
+    margin-top: 10rem;
+}
+
+.quemSomos_subtitle {
+    font-size: 4.2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    line-height: 1.2em;
+}
+
+h3, ul, p {
+    font-family: var(--roboto);
+    font-weight: 300;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+section ul li {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.beneficio {
+    font-size: 1.5rem;
+}
+
+.beneficio_title {
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* Effects */
+
+nav a:hover {
+    color: #69696b;
+    text-decoration: underline;
+}
