@@ -162,3 +162,10 @@ nav a:hover {
     color: #000000;
     text-decoration: underline;
 }
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+
+    }
+}
