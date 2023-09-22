@@ -442,7 +442,7 @@ footer {
 
 @media screen and (max-width: 440px) {
     .form {
-        padding: 0
+        padding: 0;
     }
     .container {
         width: 90%;
