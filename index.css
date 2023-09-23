@@ -170,7 +170,7 @@ section ul li {
 
 footer {
     text-align: center;
-    padding: 0px 0;
+    padding: 0px;
     margin-bottom: 40px;
 }
 
@@ -257,6 +257,10 @@ a:hover {
     h3 {
         font-size: 1.8rem;
     }
+
+    .information {
+        padding: 2rem 0 3rem 0;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 880px) {
@@ -324,9 +328,10 @@ a:hover {
         padding: 8px;
     }
 
-    footer {
-        padding-top: 1.5rem;
+    .information {
+        padding: 2rem 0 3rem 0;
     }
+
 }
 
 @media screen and (min-width: 881px) and (max-width: 1024px) {
@@ -398,8 +403,8 @@ a:hover {
         padding: 8px;
     }
 
-    footer {
-        padding-top: 1.5rem;
+    .information {
+        padding: 2rem 0 3rem 0;
     }
 
 }
