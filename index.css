@@ -122,8 +122,9 @@ section ul li {
 
 .beneficios {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .beneficio {
@@ -166,5 +167,216 @@ nav a:hover {
 /* responsive */
 
 @media screen and (max-width: 480px) {
-
+    section, .quemSomos, h3, p {
+        line-height: normal;
     }
+
+     header, body {
+        width: 100%;
+    }
+
+    .body_center {
+        padding: 12px;
+    }
+    
+    nav ul {
+        font-size: 1rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    nav li {
+        margin: 0.250rem;
+    }
+
+    section {
+        margin-bottom: 0;
+    }
+
+    h2, h3, section ul li, p {
+        margin-bottom: 1.250rem;
+    }
+
+    section ul li {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .quemSomos {
+        padding-top: 6rem;
+    }
+
+    .quemSomos_subtitle, h2, h3 {
+        font-size: 2.2rem;
+        line-height: 1.250em;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 880px) {
+    section, .quemSomos, h3, p {
+        line-height: normal;
+    }
+
+     header, body {
+        width: 100%;
+    }
+
+    .body_center {
+        padding: 12px;
+    }
+    
+    nav ul {
+        font-size: 1rem;
+        flex-wrap: wrap;
+     }
+
+    nav li {
+        margin: 0.250rem;
+    }
+
+    section {
+        margin-bottom: 0;
+    }
+
+    h2, h3, section ul li, p {
+        margin-bottom: 1.250rem;
+    }
+
+    section ul li {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .quemSomos {
+        padding-top: 6rem;
+    }
+
+    .quemSomos_subtitle, h2, h3 {
+        font-size: 2.2rem;
+        line-height: 1.250em;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .beneficio {
+        box-shadow: 8px 0px 0px 0px #4E4E56, 0px 8px 0px 0px #4E4E56, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #4E4E56;
+        padding: 8px;
+    }
+
+    footer {
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1024px) {
+    body {
+        max-width: 940px;
+    }
+
+    section, .quemSomos, h3, p {
+        line-height: normal;
+    }
+
+    .body_center {
+        padding: 12px;
+    }
+    
+    nav ul {
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+     }
+
+    nav li {
+        margin: 0.250rem;
+    }
+
+    section {
+        margin-bottom: 0;
+    }
+
+    .icon {
+        display: inline;
+    }
+
+    h2, h3, section ul li, p {
+        margin-bottom: 1.250rem;
+    }
+
+    section ul li {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    .quemSomos {
+        padding-top: 6rem;
+    }
+
+    .quemSomos_subtitle, h2, h3 {
+        font-size: 4.6rem;
+        line-height: 1.3em;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .beneficio {
+        font-size: 1.9rem;
+        padding: 8px;
+    }
+
+    footer {
+        padding-top: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .icon {
+        display: inline;
+    }
+
+}
