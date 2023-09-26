@@ -139,10 +139,12 @@ section ul li {
 }
 
 .information {
+    border-top: 1px solid #050708;
+    border-radius: 0 0 16px 16px;
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-    padding: 2rem 0 3rem 0;
+    padding: 4rem 0 3rem 0;
 }
 
 .information p {
@@ -258,6 +260,15 @@ a:hover {
         font-size: 1.8rem;
     }
 
+    .beneficio {
+    display: flex;
+    justify-content: center;
+    }
+
+    .imgSustentabilidade, .imgEconomia, .imgAtendimentoPersonalizado {
+        width: 97%;
+    }
+
     .information {
         padding: 2rem 0 3rem 0;
     }
@@ -323,10 +334,28 @@ a:hover {
         font-size: 1.8rem;
     }
 
+    .beneficios {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: initial;
+    }
+
+    .beneficio {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgSustentabilidade, .imgEconomia, .imgAtendimentoPersonalizado {
+        width: 97%;
+        max-width: 360px;
+    }
+
+/* 
     .beneficio {
         box-shadow: 8px 0px 0px 0px #4E4E56, 0px 8px 0px 0px #4E4E56, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #4E4E56;
         padding: 8px;
-    }
+    } */
 
     .information {
         padding: 2rem 0 3rem 0;
@@ -377,7 +406,7 @@ a:hover {
     }
 
     p {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .quemSomos {
@@ -395,17 +424,46 @@ a:hover {
     }
 
     h3 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
+    }
+
+    .beneficios {
+        /* margin: 0 16px 0 16px; */
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
     .beneficio {
-        font-size: 1.9rem;
-        padding: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgSustentabilidade, .imgEconomia, .imgAtendimentoPersonalizado {
+        width: 97%;
     }
 
     .information {
         padding: 2rem 0 3rem 0;
     }
+
+    /* .beneficios .beneficio {
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacao {
+        0% { transform: translateX(0) }
+        20% { transform: translateX(0) }
+        25% { transform:translateX(-100%); }
+        45% { transform: translateX(-100%); }
+        50% { transform: translateX(-165%); }
+        70% { transform: translateX(-165%); }
+        75% { transform: translateX(0%); }
+        100% { transform: translateX(0%); }
+    } */
 
 }
 
@@ -413,5 +471,36 @@ a:hover {
     .icon {
         display: inline;
     }
+
+    .beneficios {
+        /* margin: 0 16px 0 16px; */
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section ul li {
+        margin-bottom: 0;
+    }
+
+    /* .beneficios .beneficio {
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    } */
+
+    /* @keyframes animacao {
+        0% { transform: translateX(0) }
+        20% { transform: translateX(0) }
+        25% { transform:translateX(-100%); }
+        45% { transform: translateX(-100%); }
+        50% { transform: translateX(-150%); }
+        70% { transform: translateX(-150%); }
+        75% { transform: translateX(0%); }
+        100% { transform: translateX(0%); }
+    } */
+
 
 }
