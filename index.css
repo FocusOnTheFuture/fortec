@@ -80,7 +80,7 @@ h2 {
 }
 
 .quemSomos {
-    padding-top: 9rem;
+    padding-top: 6rem;
 }
 
 .quemSomos ul li {
@@ -274,10 +274,6 @@ a:hover {
         margin-bottom: 0;
     }
 
-    .quemSomos_titulo {
-        padding: 24px;
-    }
-
     .quemSomos ul {
         padding: 12px;
     }
@@ -403,10 +399,6 @@ a:hover {
 
     .quemSomos ul li {
         padding: 12px;
-    }
-
-    .quemSomos_titulo {
-        padding: 32px 0 16px 0;
     }
 
     .quemSomos_subtitle {
