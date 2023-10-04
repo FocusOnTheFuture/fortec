@@ -121,14 +121,21 @@ section ul li {
 }
 
 .beneficios {
+    /* margin: 0 16px 0 16px; */
+    /* overflow: hidden; */
     display: flex;
-    /* justify-content: center; */
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .beneficio {
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.imgSustentabilidade, .imgEconomia, .imgAtendimentoPersonalizado {
+    width: 97%;
 }
 
 .beneficio_title {
@@ -337,7 +344,6 @@ a:hover {
     .beneficios {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
         flex-direction: initial;
     }
 
@@ -433,6 +439,7 @@ a:hover {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     .beneficio {
@@ -478,7 +485,6 @@ a:hover {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
     section ul li {
