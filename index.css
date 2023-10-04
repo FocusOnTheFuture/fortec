@@ -16,7 +16,6 @@ body {
     /* width: 940px; */
     width: 80%;
     margin: 0 auto;
-    
 }
 
 header {
@@ -183,6 +182,11 @@ section ul li {
 .information p {
     font-size: 1.250rem;
     margin-bottom: 1.250rem;
+}
+
+.information .google_maps iframe {
+    width: -webkit-fill-available;
+    padding: 12px;
 }
 
 .map {
@@ -465,7 +469,7 @@ a:hover {
         text-align: center;
     }
 
-    .google_maps {
+    .information .google_maps iframe {
         width: -webkit-fill-available;
         padding: 12px;
     }
@@ -580,7 +584,7 @@ a:hover {
         text-align: center;
     }
 
-    .google_maps {
+    .information .google_maps iframe {
         width: -webkit-fill-available;
         padding: 12px;
     }
