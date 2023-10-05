@@ -475,10 +475,6 @@ a:hover {
         padding-top: 6rem;
     }
 
-    .quemSomos_titulo {
-        padding: 16px 16px 12px 16px;
-    }
-
     .quemSomos_subtitle {
         padding: 16px 0 16px 0;
     }
@@ -521,10 +517,6 @@ a:hover {
 
     .contato p {
         padding: 0px 12px 32px 12px;
-    }
-
-    .sobre h2 {
-        padding-bottom: 0;
     }
 
     .sobre h3 {
