@@ -163,16 +163,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagens/asfalto.jpg);
     padding: 1rem;
     border-radius: 20px 0px 0px 20px;
-    box-shadow: #192F60 -15px 10px 60px 1px;
+    box-shadow: #000000 -15px 10px 60px 1px;
     flex-direction: column;
     background-size: cover;
     background-position: center;
     
-    
 }
+
+.form-image:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("imagens/pexels-pok-rie-1188554.jpg");
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    opacity: 0.3;
+  }
 
 .form {
     width: 50%;
@@ -183,7 +192,7 @@ body{
     background-color: #ffffffde;
     padding: 10rem;
     border-radius: 0px 20px 20px 0px;
-    box-shadow: 20px 10px 60px 1px #192F60;
+    box-shadow: 20px 10px 60px 1px #000000;
 }
 p{
     font-size: 30px;
@@ -215,7 +224,7 @@ h2{
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
-a:hover {text-decoration: underline; color: rgb(89, 79, 145);}
+a:hover {text-decoration: underline; color: rgb(149, 146, 167);}
 a{
     color: white;
 }
@@ -341,7 +350,7 @@ footer {
     /* background: rgb(76, 76, 76); */
     text-align: center;
     padding: 0px 0;
-    margin-bottom: 40px;
+    margin-bottom: -51px;
     
 }
 
@@ -496,7 +505,6 @@ footer {
     footer {
         /* background: rgb(76, 76, 76); */
         text-align: center;
-        margin-bottom: 16px;
         padding: 0;
     }
     header{
