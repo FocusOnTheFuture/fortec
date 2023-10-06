@@ -2,10 +2,6 @@
     --roboto: 'Roboto', sans-serif;
 }
 
-.img {
-    position: absolute;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -811,12 +807,24 @@ a:hover {
         padding-top: 6rem;
     }
 
+    .quemSomos h2 {
+        padding-bottom: 0;
+        padding-top: 32px;
+    }
+
+    .quemSomos h3 {
+        line-height: 1.4em;
+        margin-bottom: 0;
+    }
+
     .quemSomos ul li {
         padding: 12px;
+        line-height: 1.4em;
+        margin-bottom: 0.5rem;
     }
 
     .quemSomos_subtitle {
-        padding: 12px;
+        padding: 24px;
     }
 
     .quemSomos_subtitle, h2, h3 {
@@ -829,6 +837,19 @@ a:hover {
         padding: 12px;
     }
 
+    .sobre h3 {
+        line-height: 1.4em;
+        margin-bottom: 0;
+    }
+
+    .sobre p {
+        margin-bottom: 0;
+    }
+
+    .sobre ul li {
+        margin-bottom: 0;
+    }
+
     .sobre h2, .sobre p {
         margin-bottom: 0;
     }
@@ -838,7 +859,7 @@ a:hover {
     }
 
     h3 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     .beneficios {
@@ -859,6 +880,14 @@ a:hover {
 
     .contato {
         padding: 12px;
+    }
+
+    .contato h2 {
+        margin-bottom: 0;
+    }
+
+    .contato ul li {
+        line-height: 1.4em;
     }
 /* 
     .beneficio {
@@ -942,7 +971,8 @@ a:hover {
     }
 
     .quemSomos ul li {
-        padding: 12px;
+        padding: 8px;
+        line-height: 1.4em;
     }
 
     .quemSomos_subtitle, h2, h3 {
@@ -955,7 +985,13 @@ a:hover {
         padding: 12px;
     }
 
+    .sobre h3 {
+        line-height: 1.4em;
+        margin-bottom: 0;
+    }
+
     .sobre p {
+        line-height: 1.4em;
         margin-bottom: 0;
     }
 
@@ -988,6 +1024,10 @@ a:hover {
 
     .contato {
         padding: 12px;
+    }
+
+    .contato ul li {
+        line-height: 1.4em;
     }
 
     .information {
