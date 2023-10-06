@@ -371,7 +371,7 @@ a:hover {
     }
 
     .sobre h3 {
-        padding: 12px;
+        padding: 0 12px 12px 12px;
     }
 
     h2, h3, section ul li, p {
@@ -379,12 +379,11 @@ a:hover {
     }
 
     section ul li {
-        font-size: 1.18rem;
-        padding: 12px 0;
+        font-size: 1.6rem;
     }
 
     section h2 {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     .icon {
@@ -392,7 +391,7 @@ a:hover {
     }
 
     p {
-        font-size: 1.18rem;
+        font-size: 1.6rem;
     }
 
     .quemSomos {
@@ -400,7 +399,7 @@ a:hover {
     }
 
     .quemSomos_titulo {
-        padding: 16px 16px 12px 16px;
+        padding: 18px 16px 15px 16px;
     }
 
     .quemSomos_subtitle {
@@ -409,12 +408,13 @@ a:hover {
 
     .quemSomos_subtitle, h2, h3 {
         font-size: 1.5rem;
-        line-height: 1.250em;
+        line-height: 1.4em;
         width: 100%;
     }
 
     .quemSomos ul li {
-        padding: 8px 12px;
+        padding: 12px 12px;
+        line-height: 1.4em;
     }
 
     h2 {
@@ -423,7 +423,7 @@ a:hover {
     }
 
     h3 {
-        font-size: 1.18rem;
+        font-size: 1.6rem;
     }
 
     .beneficios {
@@ -447,12 +447,17 @@ a:hover {
         padding: 0px 12px 32px 12px;
     }
 
+    .contato ul li {
+        line-height: 1.4em;
+    }
+
     .sobre h3 {
         margin-bottom: 0;
     }
 
     .sobre p {
         margin-bottom: 0;
+        line-height: 1.4em;
     }
 
     .information {
