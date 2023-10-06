@@ -1,5 +1,5 @@
-@@ -1,179 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
 :root {
     --white: #edeff7;
     --background-secundary: #e1e2be;
@@ -7,8 +7,10 @@
     --test-color-principal: #ffffff;
     --test-color-principal1: #030abc;
     --test-color-principal2: #ffffff;
+
     --title-principal-size: 16px;
     --title-secundary-size: 14px;
+
     --montserrat: "Montserrat", sans-serif;
 }
 /*menu
@@ -92,6 +94,8 @@ header {
     margin: 0 auto;
     background-color: transparent;
 }
+
+
 nav {
     width: 940px;
     margin: 0 auto;
@@ -101,24 +105,29 @@ nav {
     justify-content: right;
     height: 168px;
 }
+
 .logo {
     position: absolute;
     margin-top: 2.5rem;
     width: 300px;
     height: auto;
 }
+
 nav ul {
     /* background-color: rgb(71, 55, 55); */
     border-radius: 16px;
     padding: 8px;
 }
+
 nav li {
     display: inline;
     padding: 16px;
 }
+
 .nav_link{
     color: var(--test-color-principal);
 }
+
 nav a {
     text-decoration: none;
     font-size: 24px;
@@ -127,9 +136,11 @@ nav a:hover {
     color: #000000;
     text-decoration: underline;
 }
+
 .banner:hover {
     opacity: 0.6;
   }
+
 *{
     padding: 0;
     margin: 0;
@@ -139,60 +150,361 @@ nav a:hover {
 body{
     background-image: linear-gradient(to bottom, #192F60, #000008);
 }
+
 .container {
     width: 80%;
     height: 80vh;
     display: flex;
     margin: auto;
 }
+
 .form-image {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagens/asfalto.jpg);
     padding: 1rem;
     border-radius: 20px 0px 0px 20px;
-    box-shadow: #192F60 -15px 10px 60px 1px;
+    box-shadow: #000000 -15px 10px 60px 1px;
     flex-direction: column;
     background-size: cover;
     background-position: center;
-
-
+    
 }
+
+.form-image:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("imagens/pexels-pok-rie-1188554.jpg");
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    opacity: 0.3;
+  }
 
 .form {
     width: 50%;
     display: flex;
-	@@ -183,7 +192,7 @@ body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffffde;
     padding: 10rem;
     border-radius: 0px 20px 20px 0px;
-    box-shadow: 20px 10px 60px 1px #192F60;
+    box-shadow: 20px 10px 60px 1px #000000;
 }
 p{
     font-size: 30px;
-	@@ -215,7 +224,7 @@ h2{
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #000000;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
-a:hover {text-decoration: underline; color: rgb(89, 79, 145);}
+a:hover {text-decoration: underline; color: rgb(149, 146, 167);}
 a{
     color: white;
 }
-	@@ -341,7 +350,7 @@ footer {
-    /* background: rgb(76, 76, 76); */
-    text-align: center;
-    padding: 0px 0;
-    margin-bottom: 40px;
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
 
 }
 
-	@@ -496,7 +505,6 @@ footer {
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000000;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #0011ff6c;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000b7;
+}
+
+.input-box input::placeholder {
+    color: #0000005e;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0.5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000b6;
+}
+
+.send-button button {
+    width: 98%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #9ea1a5;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.send-button button:hover {
+    background-color: #101a61;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color:white
+}
+
+.send-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+textarea{
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 1px 1px 6px #000000;
+    font-size: 0.8rem;
+    width: 98%;
+}
+.input-mensage label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000b7;
+    
+}
+.input-mensage textarea::placeholder {
+    color: #0000005e;
+}
+.input-mensage textarea:hover{
+    background-color: #00000000;
+}
+footer img{
+    max-height: 10%;
+    width: 50px;
+    margin-top: 15px;
+}
+footer {
+    /* background: rgb(76, 76, 76); */
+    text-align: center;
+    padding: 0px 0;
+    margin-bottom: -51px;
+    
+}
+
+.copyright {
+    font-size: 13px;
+    color: var(--background-secundary);
+    text-align: center;
+  }
+
+@media screen and (max-width: 1951px) {
+    .input-box{
+        width: 98%;
+    }    
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .form-image {
+        display: none;
+    }
+    .container {
+        height: 50rem;
+        width: 50%;
+        margin-bottom: 5rem;  
+                
+    }
+    .form {
+        width: 100%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .send-button{
+        margin-top: -2rem;
+        width: 100%;
+    }
+    .input-box{
+        width: 98%;
+    }
+    textarea{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    
+    body {
+        display: inline-block;
+    }
+    .container {
+        width: 80%;
+        height: 56rem;
+        margin-bottom: 5rem;  
+    }
+    .input-group {    
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 40rem; 
+        flex-wrap: nowrap;
+        width: 109%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .input-box {
+    margin-left: 5px;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+    .send-button{
+        max-width: 5rem;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    textarea{
+        width: 100%;
+    }
+    h1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
     footer {
         /* background: rgb(76, 76, 76); */
         text-align: center;
-        margin-bottom: 16px;
+        margin-top: 7rem;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+    .form {
+        padding: 0;
+    }
+    .container {
+        width: 90%;
+        margin-top: -3rem;  
+        padding-top: 3rem; 
+    }
+    .input-group {    
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 2rem;
+        max-height: 40rem; 
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .input-box {
+    margin-left: 5px;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+    .send-button{
+        max-width: 5rem;
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: 1.1rem;
+        margin-right: 1rem;
+        margin-top: -3rem;
+    }
+    textarea{
+        width: 100%;
+        height: 50%;
+    }
+    h1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: -2rem;
+    }
+    
+    footer {
+        /* background: rgb(76, 76, 76); */
+        text-align: center;
         padding: 0;
     }
     header{
@@ -204,14 +516,17 @@ a{
     header, .nav {
         width: auto;
     }
+
     h1 {
         text-align: center;
     }
+
     .logo {
         position: static;
         width: 60%;
         margin: 0px 0px 1rem 0px;
     }
+
     nav {
         height: auto;
         margin-top: 1rem;
