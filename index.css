@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    text-align: justify;
 }
 
 html {
@@ -150,7 +149,7 @@ section ul li {
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #207DC3;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -191,7 +190,7 @@ section ul li {
     /* margin: 0 16px 0 16px; */
     /* overflow: hidden; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
 }
