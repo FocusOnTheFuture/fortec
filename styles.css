@@ -368,7 +368,10 @@ footer {
 }
 
 @media screen and (max-width: 1500px) {
-    
+
+    body{
+        background-color: #1D3A74;
+    }
     .form-image {
         display: none;
     }
@@ -397,6 +400,7 @@ footer {
 @media screen and (max-width: 1064px) {
     
     body {
+        background-color: #1D3A74;
         display: inline-block;
     }
     .container {
@@ -452,6 +456,9 @@ footer {
 }
 
 @media screen and (max-width: 440px) {
+    body{
+        background-color: #1D3A74;
+    }
     .form {
         padding: 0;
     }
