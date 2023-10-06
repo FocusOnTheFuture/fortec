@@ -151,7 +151,6 @@ body::after {
     content: "";
       background: url(imagens/fundofortec.png);
     background-repeat: no-repeat;
-      opacity: 0.8;
       top: 0;
       left: 0;
       bottom: -70px;
