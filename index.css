@@ -138,6 +138,10 @@ section ul li {
     line-height: 1.3;
 }
 
+.contato h2 {
+    padding-bottom: 24px;
+}
+
 .sobre h3 {
     margin-bottom: 1.2rem;
 }
