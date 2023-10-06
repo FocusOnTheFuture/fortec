@@ -2,6 +2,10 @@
     --roboto: 'Roboto', sans-serif;
 }
 
+.img {
+    position: absolute;
+}
+
 * {
     box-sizing: border-box;
 }
