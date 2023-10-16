@@ -67,6 +67,7 @@ li a {
 
 .body_center {
     background-color: #D9D9D9;
+     /* background-image: linear-gradient(to bottom, #064973, #012E40); */
 }
 
 section {
@@ -75,11 +76,11 @@ section {
 }
 
 h2 {
+    color: #064973;
     font-family: var(--roboto);
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 1.2rem;
-    text-decoration: underline;
     padding: 16px;
 }
 
@@ -145,6 +146,99 @@ section ul li {
 .sobre h3 {
     margin-bottom: 1.2rem;
 }
+
+/* LINHA DO TEMPO BENEFICIOS */
+
+.main-container{
+    position: relative;
+    width: auto;
+}
+/*creating line for timeline*/
+.main-container::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: #064973;
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/*Adjusting box of all content*/
+.text-wrapper{
+    padding: 10px 40px;
+    position: relative;
+    width:51%;
+    box-sizing: border-box;
+    margin: 2rem 0;
+}
+.text-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    right: -10px;
+    background-color:#012E40;
+    top:15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*for left events*/
+.left1 .left2{
+    left: 0;
+}
+
+.left1::after {
+    background-image: url(./imagens/imgSustentabilidade.png);
+    background-size: cover;
+}
+
+.left2::after {
+    background-image: url(./imagens/imgAtendimentoPersonalizado.png);
+    background-size: cover;
+}
+
+/*for right events*/
+.right{
+    left:50%;
+}
+
+.right::after{
+    left:-10px;
+    background-image: url(./imagens/imgEconomia.png);
+    background-size: cover;
+}
+
+/*content box colour padding and radius for circular corner*/
+.content{
+    padding: 15px 15px 15px 17px;
+    background-color: #064973;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+.content_right {
+    box-shadow: -10px 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+/*setting text property of event heading*/
+.content h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    letter-spacing:1px;
+}
+/*setting text property of event content*/
+.content p{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 2px;
+    line-height: 1.3;
+}
+
+
 
 .contato {
     display: flex;
@@ -229,8 +323,24 @@ section ul li {
     padding: 16px;
 }
 
+.sobre h3 .diferencial {
+    box-shadow: 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+.politica ul {
+    padding: 12px;
+    margin-bottom: 1.8rem;
+    line-height: 1.3;
+}
+
 .contato_section {
     padding: 16px;
+}
+
+.contato ul {
+    padding: 12px;
+    margin-bottom: 1.8rem;
+    line-height: 1.3;
 }
 
 .information {
