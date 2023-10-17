@@ -224,7 +224,7 @@ h2{
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
-a:hover {text-decoration: underline; color: rgb(149, 146, 167);}
+a:hover {text-decoration: none; color: rgb(149, 146, 167);}
 a{
     color: white;
 }
