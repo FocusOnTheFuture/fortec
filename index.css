@@ -196,13 +196,17 @@ section ul li {
 }
 
 .left1::after {
-    background-image: url(./imagens/imgSustentabilidade.png);
-    background-size: cover;
+    background-image: url(./assets/favicon/plant.ico);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 .left2::after {
-    background-image: url(./imagens/imgAtendimentoPersonalizado.png);
-    background-size: cover;
+    background-image: url(./assets/favicon/atendimentoPersonalizado.ico);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 /*for right events*/
@@ -212,8 +216,10 @@ section ul li {
 
 .right::after{
     left:-10px;
-    background-image: url(./imagens/imgEconomia.png);
-    background-size: cover;
+    background-image: url(./assets/favicon/economia.ico);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 /*content box colour padding and radius for circular corner*/
@@ -1188,5 +1194,43 @@ a:hover {
         100% { transform: translateX(0%); }
     } */
 
+}
+
+
+/* EFEITO CARROSEL */
+
+.carousel {
+    position: relative;
+    width: 85%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
 }
 
