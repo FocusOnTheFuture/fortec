@@ -156,6 +156,7 @@ body{
     height: 80vh;
     display: flex;
     margin: auto;
+    
 }
 
 .form-image {
@@ -163,7 +164,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding:1rem;
     border-radius: 20px 0px 0px 20px;
     box-shadow: #000000 -15px 10px 60px 1px;
     flex-direction: column;
@@ -181,6 +182,7 @@ body{
     background-position: bottom;
     z-index: -1;
     opacity: 0.3;
+    
   }
 
 .form {
@@ -350,7 +352,7 @@ footer {
     /* background: rgb(76, 76, 76); */
     text-align: center;
     padding: 0px 0;
-    margin-bottom: -51px;
+    margin-bottom: -98px;
     
 }
 
