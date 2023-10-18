@@ -1530,3 +1530,58 @@ a:hover {
     right: 0;
 } */
 
+/* MEDIA QUERY FAIXA MENU */
+
+@media screen and (max-width: 439px) {
+    header {
+        background-position: -70% 25%;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 519px) {
+    header {
+        background-position: -70% 28%;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 679px) {
+    header {
+        background-position: -70% 32%;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 880px) {
+    header {
+        background-position: -70% 36%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1190px) {
+    header {
+        background-position: -70% 33%;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1570px) {
+    header {
+        background-position: -70% 37%;
+    }
+}
+
+@media screen and (min-width: 1571px) and (max-width: 1960px) {
+    header {
+        background-position: -70% 40%;
+    }
+}
+
+@media screen and (min-width: 1571px) and (max-width: 2120px) {
+    header {
+        background-position: -70% 40%;
+    }
+}
+
+@media screen and (min-width: 2121px) {
+    header {
+        background-position: -70% 43%;
+    }
+}
