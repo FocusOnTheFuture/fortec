@@ -440,6 +440,70 @@ a:hover {
     text-decoration: underline;
 }
 
+/* EFEITO CARROSEL */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: 680px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+.carousel ul li {
+    list-style-type: disc;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    line-height: 1.8;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+    flex-direction: column;
+}
+
+.slides .title_slide {
+    list-style-type: none;
+}
+
+.slide h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
 
 /* responsive */
 
@@ -654,6 +718,22 @@ a:hover {
         flex-direction: column;
         justify-content: space-around;
     }
+
+    /* CARROUSEL RESPONSIVE 480PX */
+
+    .carousel {
+        height: 590px;
+    }
+
+    .carousel ul li {
+        font-size: 1rem;
+    }
+
+    .slide {
+        padding: 0 24px 0 55px;
+    }
+
+
 }
 
 /* @media screen and (min-width: 361px) and (max-width: 393px) {
@@ -1375,7 +1455,7 @@ a:hover {
 }
 
 
-/* EFEITO CARROSEL */
+/* EFEITO CARROSEL
 
 .carousel {
     display: flex;
@@ -1390,6 +1470,13 @@ a:hover {
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
 }
 
+.carousel ul li {
+    list-style-type: disc;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    line-height: 1.8;
+}
+
 .slides {
     display: flex;
 }
@@ -1397,7 +1484,19 @@ a:hover {
 .slide {
     min-width: 100%;
     flex-direction: column;
-    align-items: center;
+}
+
+.slides .title_slide {
+    list-style-type: none;
+}
+
+.slide h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 0;
 }
 
 .carousel button {
@@ -1417,5 +1516,5 @@ a:hover {
 
 .next {
     right: 0;
-}
+} */
 
