@@ -1,13 +1,3 @@
-// const slides = document.querySelectorAll(".slide");
-
-// let index = 0;
-
-// setInterval(() => {
-//     slides.forEach(slide => {
-//         slide.style.animation = "slide 1s infinite";
-//     });
-// }, 5000);
-
 let slideIndex = 0;
 
 function showSlides() {
@@ -20,7 +10,7 @@ function showSlides() {
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
-    slides[slideIndex].style.display = 'block';
+    slides[slideIndex].style.display = 'flex';
 }
 
 function nextSlide() {
