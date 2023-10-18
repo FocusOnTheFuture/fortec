@@ -732,8 +732,6 @@ a:hover {
     .slide {
         padding: 0 24px 0 55px;
     }
-
-
 }
 
 /* @media screen and (min-width: 361px) and (max-width: 393px) {
@@ -1243,6 +1241,20 @@ a:hover {
     .rodape {
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    /* CARROUSEL RESPONSIVE 481px - 880px */
+
+    .carousel {
+        height: 680px;
+    }
+
+    .carousel ul li {
+        font-size: 1.2rem;
+    }
+
+    .slide {
+        padding: 0 24px 0 55px;
     }
 }
 
